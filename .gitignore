@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+dist/
+*.user
+*.suo
+.vs/
+profiles.json
+protocol-backup.json
+accounts/
+history-backups/
+protocol.lock
+*.pdb

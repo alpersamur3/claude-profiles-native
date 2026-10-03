@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>ClaudeProfilesNative</AssemblyName><Version>0.7.0</Version><ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <Title>Claude Profiles Native</Title><Product>Claude Profiles Native</Product><Description>Use multiple Claude accounts with ease.</Description>
+  </PropertyGroup>
+  <ItemGroup><EmbeddedResource Include="Locales/*.json" LogicalName="ClaudeProfilesNative.Locales.%(Filename)%(Extension)" /></ItemGroup>
+</Project>
